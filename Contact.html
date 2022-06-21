@@ -92,13 +92,17 @@
                 <div class=contact-us__string><img alt="" src=img/Email.svg> hello.afrian@gmail.com</div>
             </div>
             <div class=contact-us__message>
-                <form action=form class=contact-us__form>
-                    <div class=contact-us__form__title>SEND US MESSAGE</div><span class=contact-us__form__sub>Full Name
-                    </span><input class=contact-us__form__name placeholder="Your Name"> <span
-                        class=contact-us__form__sub>Email </span><input class=contact-us__form__email
-                        placeholder="Your Email" type=email> <span class=contact-us__form__sub>Message</span><textarea
-                        cols=30 id=form__text name=text placeholder="Your Message" rows=10></textarea><a href=#
-                        class="btn form__btn">SUBMIT</a>
+                <form id="contacts-form"  class=contact-us__form>
+                    <div class=contact-us__form__title>SEND US MESSAGE</div>
+                    <span class=contact-us__form__sub>Full Name
+                </span>
+                <input type="text" class=contact-us__form__name name="fullname" placeholder="Your Name"> 
+                <span class=contact-us__form__sub>Email </span>
+                <input class=contact-us__form__email placeholder="Your Email" name="email" type=email> 
+                <span class=contact-us__form__sub>Message</span>
+                <textarea
+                cols=30 id=form__text name=text placeholder="Your Message" rows=10></textarea>
+        <button type="submit" class="btn form__btn">SUBMIT</button>
                 </form>
             </div>
         </div>
@@ -157,5 +161,7 @@ crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
 integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
 crossorigin="anonymous"></script>
+<script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </body>
 </html>
