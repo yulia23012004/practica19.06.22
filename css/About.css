@@ -1096,7 +1096,7 @@ body {
         justify-content: center;
         -webkit-box-align: end;
         -ms-flex-align: end;
-        align-items: end
+        
     }
 
     .footer__title {
