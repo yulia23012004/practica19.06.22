@@ -1096,6 +1096,7 @@ body {
         justify-content: center;
         -webkit-box-align: end;
         -ms-flex-align: end;
+        text-align: center;
         
     }
 
