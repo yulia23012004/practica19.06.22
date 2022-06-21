@@ -975,6 +975,7 @@ body {
     }
 
     .footer__block {
+        text-align: center;
         margin-top: 40px
     }
 
@@ -1096,7 +1097,7 @@ body {
         justify-content: center;
         -webkit-box-align: end;
         -ms-flex-align: end;
-        text-align: center;
+        
         
     }
 
